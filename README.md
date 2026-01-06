@@ -34,6 +34,7 @@ neaty-cake/
 ├── Style.css           # Stiluri CSS
 ├── app.js              # Logică JavaScript
 └── README.md           # Documentație proiect
+```
 🚀 Rulare proiect
 
 Clonează repository-ul:
