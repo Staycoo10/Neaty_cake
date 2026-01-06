@@ -1,0 +1,352 @@
+*{
+    font-family: 'Joti One', serif;
+    font-family: 'Noto Sans Kawi', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.mascota{
+    width: 50px;
+    opacity: 0;
+    position: fixed;
+    animation: mascota 3s infinite;
+}
+ @keyframes mascota {
+     form {
+         rotate: 0deg;
+         width: 50px;
+     }
+
+     50% {
+         width: 180px;
+     }
+
+     to {
+        width: 50px;
+        rotate: 360deg;
+     }
+ }
+
+.hidden-content{
+    display: none;
+}
+.hidden-content.reveal{
+    display: block;
+}
+.hover-section {
+    padding: 15px;
+}
+.site{
+    display: flex;
+}
+body{
+    margin: 0px;
+}
+.sideBar{
+    background-color: rgb(0, 101, 153);
+    width: 30vw;
+    height: 100vh;
+}
+.sidebarLogo{
+    height: 60px;
+    margin-top: 20%;
+}
+.sidebarTitle{
+    margin-top: 5px;
+    color: white;
+}
+.sidebarLinks{
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 22px;
+}
+.text{
+    margin: 0px;
+    position: relative;
+    color: #fdfdfd;
+    line-height: 1;
+    padding: 0;
+}
+.text::before {
+    content: attr(data-text);
+    position: absolute;
+    z-index: 1;
+    color: rgb(255, 255, 0);
+    pointer-events: none;
+    width: 0;
+    overflow: hidden;
+    transition: 0.5s ease-out width;
+}
+.text:hover::before {
+    width: 100%;
+}
+span:hover::before {
+    width: 100%;
+}
+.sidebarContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textAlign {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18%;
+}
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 24px;
+    top: 10%;
+}
+.bazeSite{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto ;
+    scroll-behavior: smooth;
+    width: 70vw;    
+    height: 100vh;
+}
+.firstPhoto{
+    max-width: 1100px;
+}
+.firstContent{
+    margin: 50px;
+}
+.title{
+    font-size: 32px;
+    color: rgb(0, 101, 153);
+}
+#team{
+    margin-top: 0px;
+}
+.dualContent {
+    display: flex;
+    margin: 0 50px;
+    justify-content: space-around;
+}
+.teamContent{
+    width: 900px;
+}
+.secondImage{
+    display: flex;
+    width: 35%;
+}
+.secondPhoto{
+    max-width: 360px;
+}
+.teamParagraf{
+    margin: 40px 0px;
+}
+.button-26 {
+    appearance: button;
+    background-color:rgb(0, 101, 153);
+    border: 1px solid;
+    border-radius: 1px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Graphik, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 19px;
+    line-height: 1.15;
+    overflow: visible;
+    padding: 13px 40px;
+    text-align: center;
+    text-transform: none;
+    transition: all 80ms ease-in-out;
+    user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+}
+#sendButton{
+    margin-left: 39px;
+}
+.button-26:disabled {
+    opacity: .5;
+}
+.gallery {
+    margin-left: 40px;
+    margin-top: 5%;
+}
+#ThirdGallery{
+    margin-left: 40px;
+    margin-top: 5%;
+}
+.galleryPhotos{
+    display: flex;
+    flex-wrap: wrap;    
+    gap: 22px;
+    margin: 0 40px;
+}
+.images{
+    max-width: 236px;
+}
+.secondImages {
+    max-width: 407px;
+}
+.thirdImages{
+    max-width: 300px;
+}
+.contactUs{
+    display: flex;
+    flex-direction: column;
+}
+.data{
+    width: 630px;
+    height: 40px;
+    font-size: 22px;
+    border-radius: 2px;
+    border: 1px solid rgb(0, 101, 153);
+    margin: 5px 40px;
+    padding-left: 10px;
+}
+.Contact{
+    display: flex;
+}
+.grupParagraf{
+    margin: 0px;
+}
+#space{
+    margin-top: 28px;
+}
+footer{
+    margin: 50px 0px 0px 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#message{
+    height: 400px;
+}
+.endSite{
+    margin-right:  40px;
+}
+.endSite p:last-child {
+    color: rgb(0, 94, 141);
+    font-size: large;
+}
+.endSite p:last-child:hover {
+    color: rgb(0, 144, 216);
+}
+@media(max-width: 1020px) {
+    @keyframes mascota {
+        form {
+            rotate: 0deg;
+            width: 40px;
+        }
+
+        50% {
+            width: 100px;
+        }
+
+        to {
+            rotate: 360deg;
+            width: 40px;
+        }
+    }
+.sideBar {
+        width: 100vw;
+        height: 13vh;
+        display: flex;
+        justify-content: center;
+    }
+.sidebarLogo {
+    height: 45px;
+    margin-top: 10%;
+}
+.sidebarTitle {
+    margin-top: 0px;
+    font-size: 35px;
+}
+.sidebarContent {
+    display: none;
+}
+.bazeSite {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+.site {
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    font-size: 30px;
+}
+.firstContent {
+    margin: 30px;
+    font-size: 15px;
+}
+.dualContent {
+    display: block;
+    margin: 0 30px;
+    max-width: 100% ;
+}
+.teamContent {
+    max-width: 100%;
+    font-size: 14px;
+}
+.teamParagraf {
+    margin: 30px 0px;
+}
+#sendButton{
+    margin-left: -1px;
+}
+.gallery {
+    margin-left: 30px;
+    margin-top: 5%;
+}
+#ThirdGallery {
+    margin-left: 30px;
+    margin-top: 5%;
+}
+.galleryPhotos {
+    margin: 0 30px;
+    max-width: 430px;
+    max-width: 90%;
+}
+.images {
+    max-width: 100%;
+}
+.secondImages {
+    max-width: 100%;
+}
+.contactUs {
+    display: flex;
+    flex-direction: column;
+    max-width: 630px;
+}
+.data {
+    width: 100%;
+    border-radius: 2px;
+    margin: 5px 0px;
+}
+.Contact {
+    display: block;
+    margin: 30px;
+}
+.grupParagraf {
+    margin: 0px;
+}
+footer {
+    text-align: center;
+    margin: 0px;
+    padding: 30px 0px;
+    background-color: rgb(0, 101, 153);
+    color: #FFFFFF;
+}
+footer p {
+    margin: 0;
+}
+#message {
+    height: 200px;
+}
+.endSite {
+    margin-right: 30px;
+    display: block;
+}
+}
+@media (max-width: 1840px) {
+    .dualContent{
+        display: block;
+    }
+}
