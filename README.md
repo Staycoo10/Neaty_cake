@@ -60,5 +60,5 @@ Deschide fișierul Landing_page.html în browser
 
 -Demonstrarea cunoștințelor de bază Front-End fără framework-uri
 
-##👨‍💻 Autor
+## 👨‍💻 Autor
 Botnari Bogdan
