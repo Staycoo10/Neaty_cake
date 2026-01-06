@@ -39,16 +39,16 @@ neaty-cake/
 
 Clonează repository-ul:
 
-git clone https://github.com/username/neaty-cake.git
+``git clone https://github.com/username/neaty-cake.git``
 
 
 Deschide folderul proiectului:
 
-cd neaty-cake
+``cd neaty-cake``
 
 
 Deschide fișierul Landing_page.html în browser
-(nu este necesară nicio configurare suplimentară)
+``(nu este necesară nicio configurare suplimentară)``
 
 🎯 Scopul proiectului
 
