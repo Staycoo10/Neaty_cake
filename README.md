@@ -35,7 +35,7 @@ neaty-cake/
 ├── app.js              # Logică JavaScript
 └── README.md           # Documentație proiect
 ```
-🚀 Rulare proiect
+##🚀 Rulare proiect
 
 Clonează repository-ul:
 
@@ -50,15 +50,15 @@ Deschide folderul proiectului:
 Deschide fișierul Landing_page.html în browser
 ``(nu este necesară nicio configurare suplimentară)``
 
-🎯 Scopul proiectului
+##🎯 Scopul proiectului
 
-Exersarea dezvoltării unei pagini web de la zero
+-Exersarea dezvoltării unei pagini web de la zero
 
-Îmbunătățirea abilităților de CSS și layout
+-Îmbunătățirea abilităților de CSS și layout
 
-Practicarea interactivității cu JavaScript
+-Practicarea interactivității cu JavaScript
 
-Demonstrarea cunoștințelor de bază Front-End fără framework-uri
+-Demonstrarea cunoștințelor de bază Front-End fără framework-uri
 
-👨‍💻 Autor
+##👨‍💻 Autor
 Botnari Bogdan
