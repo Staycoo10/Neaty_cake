@@ -35,7 +35,7 @@ neaty-cake/
 ├── app.js              # Logică JavaScript
 └── README.md           # Documentație proiect
 ```
-##🚀 Rulare proiect
+## 🚀 Rulare proiect
 
 Clonează repository-ul:
 
@@ -50,7 +50,7 @@ Deschide folderul proiectului:
 Deschide fișierul Landing_page.html în browser
 ``(nu este necesară nicio configurare suplimentară)``
 
-##🎯 Scopul proiectului
+## 🎯 Scopul proiectului
 
 -Exersarea dezvoltării unei pagini web de la zero
 
